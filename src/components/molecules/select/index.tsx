@@ -12,7 +12,7 @@ const Select: React.FC<SelectProps> = ({
   ...props
 }) => {
   return (
-    <div className="mb-6 w-full px-3">
+    <div className="mb-4 w-full">
       <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
         {label}
       </label>

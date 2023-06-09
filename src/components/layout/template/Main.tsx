@@ -7,12 +7,12 @@ interface MainTemplate {
 const MainTemplate: React.FC<MainTemplate> = ({ children }) => {
   return (
     <>
-      <header className="h-28 bg-slate-300 md:h-32">
-        <div className="m-auto flex h-full max-w-5xl items-center  p-3 md:max-w-lg">
-          <h1 className="text-5xl font-medium sm:text-3xl">GymPT</h1>
+      <header className="h-28  md:h-60">
+        <div className="m-auto flex h-full max-w-xl items-center p-3 md:max-w-4xl xl:max-w-7xl">
+          <h1 className="text-6xl font-medium lg:text-8xl">GymPT</h1>
         </div>
       </header>
-      <div className="max-w-lgxl m-auto pt-3 md:max-w-3xl xl:max-w-7xl">
+      <div className="m-auto max-w-xl pt-3 md:max-w-4xl xl:max-w-7xl">
         {children}
       </div>
     </>
